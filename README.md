@@ -116,3 +116,38 @@ All security simulations will be performed on systems owned and controlled by th
 ---
 
 **Project developed for hands-on SOC Analyst learning and cybersecurity portfolio development.**
+
+
+
+
+
+
+## Implementation Progress
+
+### Milestone 1: Splunk Server Deployment — Completed
+
+**Objective:** Deploy a centralized SIEM server using Splunk Enterprise on Ubuntu Server.
+
+**Environment:**
+- Operating System: Ubuntu Server 26.04.1 LTS
+- SIEM Platform: Splunk Enterprise 10.6.1.1
+- Virtualization: Oracle VirtualBox
+- Architecture: AMD64
+
+**Implementation:**
+- Created and configured an Ubuntu Server virtual machine.
+- Configured NAT networking for internet connectivity.
+- Configured Host-only networking for private lab communication.
+- Expanded the Ubuntu root logical volume using LVM.
+- Installed Splunk Enterprise using the Debian package.
+- Configured a dedicated non-root `splunk` service account.
+- Accessed Splunk Web from the Windows host machine.
+
+**Verification:**
+- Confirmed Splunk daemon is running.
+- Verified Splunk Web on TCP port 8000.
+- Verified Splunk Management Interface on TCP port 8089.
+- Confirmed Splunk Enterprise version 10.6.1.1.
+
+**Status:** Completed
+
