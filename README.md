@@ -151,3 +151,14 @@ All security simulations will be performed on systems owned and controlled by th
 
 **Status:** Completed
 
+### Milestone 2: Windows Endpoint Integration — Completed
+
+- Installed Sysmon on Windows 11 endpoint.
+- Installed and configured Splunk Universal Forwarder.
+- Forwarded Windows Security and Sysmon events to Splunk Enterprise.
+- Configured persistent Sysmon search-time field extractions.
+- Resolved cross-app configuration visibility using default.meta.
+- Validated automatic field extraction in Splunk Search & Reporting.
+
+Documentation: [Windows Endpoint Log Collection](docs/windows-endpoint-log-collection.md)
+
